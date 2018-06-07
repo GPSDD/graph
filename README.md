@@ -34,9 +34,16 @@ http://104.131.87.76:7474/browser/
 
 The knowledge graph of concepts is generated from the information stated in [this Google Spreadsheet](https://docs.google.com/a/vizzuality.com/spreadsheets/d/1awsO5aPEOv_OEFTakIhn-Ej7RFw46UP-jUWXnskPRqk/edit?usp=sharing).
  
+### Step by step guide to generate the necessary files
+
+1. Download the spreadsheet above as a .tsv file
+2. Run `com/vizzuality/ExportToCSVFiles.java` with the path to the TSV file as its sole argument
+3. The application will generate several `.csv` files inside the `csv_files` folder
+
+
 ### Step by step guide to import the Graph
 
-1. Download the aforementioned spreadsheet as a CSV file
+1. Download the aforementioned spreadsheet as a TSV file
 2. Upload it to the server using scp
 3. Copy it to the folder called **import** that is located inside the Neo4j installation
 4. Download the JSON file resulting from this request to the WRI API https://api.resourcewatch.org/dataset/?app=rw&includes=vocabulary

@@ -1,8 +1,3 @@
-dataset,Dataset,,general,DATA_TYPE
-raster,Raster,,geospatial,DATA_TYPE
-vector,Vector,,geospatial,DATA_TYPE
-table,Table,,dataset,DATA_TYPE
-geospatial,Geospatial,,dataset,DATA_TYPE
 frequency,Frequency,,general,FREQUENCY
 daily,Daily,,frequency,FREQUENCY
 near_real_time,Near Real Time,,frequency,FREQUENCY
@@ -618,190 +613,21 @@ biomass,Biomass,,forest,TOPIC
 smoke,Smoke,,fire,TOPIC
 carbon,Carbon,,climate,TOPIC
 investments,Investments,,commerce,TOPIC
-sustainable_development_goals,Sustainable Development Goals,SDGs,general,TOPIC
-SDG_1_No_Poverty,SDG 1 No Poverty,,sustainable_development_goals,TOPIC
-SDG_2_Zero_Hunger,SDG 2 Zero Hunger,,sustainable_development_goals,TOPIC
-SDG_3_Good_Health_and_Well-being,SDG 3 Good Health and Well-being,,sustainable_development_goals,TOPIC
-SDG_4_Quality_Education,SDG 4 Quality Education,,sustainable_development_goals,TOPIC
-SDG_5_Gender_Equality,SDG 5 Gender Equality,,sustainable_development_goals,TOPIC
-SDG_6_Clean_Water_and_Sanitation,SDG 6 Clean Water and Sanitation,,sustainable_development_goals,TOPIC
-SDG_7_Affordable_and_Clean_Energy,SDG 7 Affordable and Clean Energy,,sustainable_development_goals,TOPIC
-SDG_8_Decent_Work_and_Economic_Growth,SDG 8 Decent Work and Economic Growth,,sustainable_development_goals,TOPIC
-SDG_9_Industry_Innovation_and_Infrastructure,SDG 9 Industry, Innovation and Infrastructure,,sustainable_development_goals,TOPIC
-SDG_10_Reduced_Inequalities,SDG 10 Reduced Inequalities,,sustainable_development_goals,TOPIC
-SDG_11_Sustainable_Cities_and_Communities,SDG 11 Sustainable Cities and Communities,,sustainable_development_goals,TOPIC
-SDG_12_Responsible_Consumption_and_Production,SDG 12 Responsible Consumption and Production,,sustainable_development_goals,TOPIC
-SDG_13_Climate_Action,SDG 13 Climate Action,,sustainable_development_goals,TOPIC
-SDG_14_Life_below_Water,SDG 14 Life below Water,,sustainable_development_goals,TOPIC
-SDG_15_Life_on_Land,SDG 15 Life on Land,,sustainable_development_goals,TOPIC
-SDG_16_Peace_Justice_and_Strong_Institutions,SDG 16 Peace Justice and Strong Institutions,,sustainable_development_goals,TOPIC
-SDG_17_Partnership_for_Goals,SDG 17 Partnership for Goals,,sustainable_development_goals,TOPIC
-SDG_target_1.1,SDG Target 1.1,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.2,SDG Target 1.2,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.3,SDG Target 1.3,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.4,SDG Target 1.4,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.5,SDG Target 1.5,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.a,SDG Target 1.a,,SDG_1_No_Poverty,TOPIC
-SDG_target_1.b,SDG Target 1.b,,SDG_1_No_Poverty,TOPIC
-SDG_target_2.1,SDG Target 2.1,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.2,SDG Target 2.2,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.3,SDG Target 2.3,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.4,SDG Target 2.4,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.5,SDG Target 2.5,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.a,SDG Target 2.a,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.b,SDG Target 2.b,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_2.c,SDG Target 2.c,,SDG_2_Zero_Hunger,TOPIC
-SDG_target_3.1,SDG Target 3.1,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.2,SDG Target 3.2,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.3,SDG Target 3.3,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.4,SDG Target 3.4,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.5,SDG Target 3.5,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.6,SDG Target 3.6,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.7,SDG Target 3.7,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.8,SDG Target 3.8,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.9,SDG Target 3.9,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.a,SDG Target 3.a,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.b,SDG Target 3.b,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.c,SDG Target 3.c,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_3.d,SDG Target 3.d,,SDG_3_Good_Health_and_Well-being,TOPIC
-SDG_target_4.1,SDG Target 4.1,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.2,SDG Target 4.2,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.3,SDG Target 4.3,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.4,SDG Target 4.4,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.5,SDG Target 4.5,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.6,SDG Target 4.6,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.7,SDG Target 4.7,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.a,SDG Target 4.a,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.b,SDG Target 4.b,,SDG_4_Quality_Education,TOPIC
-SDG_target_4.c,SDG Target 4.c,,SDG_4_Quality_Education,TOPIC
-SDG_target_5.1,SDG Target 5.1,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.2,SDG Target 5.2,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.3,SDG Target 5.3,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.4,SDG Target 5.4,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.5,SDG Target 5.5,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.6,SDG Target 5.6,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.a,SDG Target 5.a,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.b,SDG Target 5.b,,SDG_5_Gender_Equality,TOPIC
-SDG_target_5.c,SDG Target 5.c,,SDG_5_Gender_Equality,TOPIC
-SDG_target_6.1,SDG Target 6.1,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.2,SDG Target 6.2,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.3,SDG Target 6.3,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.4,SDG Target 6.4,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.5,SDG Target 6.5,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.6,SDG Target 6.6,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.a,SDG Target 6.a,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_6.b,SDG Target 6.b,,SDG_6_Clean_Water_and_Sanitation,TOPIC
-SDG_target_7.1,SDG Target 7.1,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.2,SDG Target 7.2,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.3,SDG Target 7.3,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.a,SDG Target 7.a,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_7.b,SDG Target 7.b,,SDG_7_Affordable_and_Clean_Energy,TOPIC
-SDG_target_8.1,SDG Target 8.1,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.2,SDG Target 8.2,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.3,SDG Target 8.3,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.4,SDG Target 8.4,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.5,SDG Target 8.5,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.6,SDG Target 8.6,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.7,SDG Target 8.7,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.8,SDG Target 8.8,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.9,SDG Target 8.9,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.1,SDG Target 8.1,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.a,SDG Target 8.a,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_8.b,SDG Target 8.b,,SDG_8_Decent_Work_and_Economic_Growth,TOPIC
-SDG_target_9.1,SDG Target 9.1,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.2,SDG Target 9.2,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.3,SDG Target 9.3,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.4,SDG Target 9.4,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.5,SDG Target 9.5,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.a,SDG Target 9.a,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.b,SDG Target 9.b,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_9.c,SDG Target 9.c,,SDG_9_Industry_Innovation_and_Infrastructure,TOPIC
-SDG_target_10.1,SDG Target 10.1,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.2,SDG Target 10.2,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.3,SDG Target 10.3,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.4,SDG Target 10.4,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.5,SDG Target 10.5,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.6,SDG Target 10.6,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.7,SDG Target 10.7,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.a,SDG Target 10.a,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.b,SDG Target 10.b,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_10.c,SDG Target 10.c,,SDG_10_Reduced_Inequalities,TOPIC
-SDG_target_11.1,SDG Target 11.1,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.2,SDG Target 11.2,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.3,SDG Target 11.3,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.4,SDG Target 11.4,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.5,SDG Target 11.5,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.6,SDG Target 11.6,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.7,SDG Target 11.7,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.a,SDG Target 11.a,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.b,SDG Target 11.b,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_11.c,SDG Target 11.c,,SDG_11_Sustainable_Cities_and_Communities,TOPIC
-SDG_target_12.1,SDG Target 12.1,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.2,SDG Target 12.2,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.3,SDG Target 12.3,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.4,SDG Target 12.4,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.5,SDG Target 12.5,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.6,SDG Target 12.6,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.7,SDG Target 12.7,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.8,SDG Target 12.8,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.a,SDG Target 12.a,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.b,SDG Target 12.b,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_12.c,SDG Target 12.c,,SDG_12_Responsible_Consumption_and_Production,TOPIC
-SDG_target_13.1,SDG Target 13.1,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.2,SDG Target 13.2,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.3,SDG Target 13.3,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.a,SDG Target 13.a,,SDG_13_Climate_Action,TOPIC
-SDG_target_13.b,SDG Target 13.b,,SDG_13_Climate_Action,TOPIC
-SDG_target_14.1,SDG Target 14.1,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.2,SDG Target 14.2,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.3,SDG Target 14.3,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.4,SDG Target 14.4,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.5,SDG Target 14.5,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.6,SDG Target 14.6,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.7,SDG Target 14.7,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.a,SDG Target 14.a,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.b,SDG Target 14.b,,SDG_14_Life_below_Water,TOPIC
-SDG_target_14.c,SDG Target 14.c,,SDG_14_Life_below_Water,TOPIC
-SDG_target_15.1,SDG Target 15.1,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.2,SDG Target 15.2,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.3,SDG Target 15.3,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.4,SDG Target 15.4,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.5,SDG Target 15.5,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.6,SDG Target 15.6,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.7,SDG Target 15.7,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.8,SDG Target 15.8,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.9,SDG Target 15.9,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.a,SDG Target 15.a,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.b,SDG Target 15.b,,SDG_15_Life_on_Land,TOPIC
-SDG_target_15.c,SDG Target 15.c,,SDG_15_Life_on_Land,TOPIC
-SDG_target_16.1,SDG Target 16.1,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.2,SDG Target 16.2,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.3,SDG Target 16.3,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.4,SDG Target 16.4,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.5,SDG Target 16.5,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.6,SDG Target 16.6,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.7,SDG Target 16.7,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.8,SDG Target 16.8,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.9,SDG Target 16.9,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.10.,SDG Target 16.10.,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.a,SDG Target 16.a,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_16.b,SDG Target 16.b,,SDG_16_Peace_Justice_and_Strong_Institutions,TOPIC
-SDG_target_17.1,SDG Target 17.1,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.2,SDG Target 17.2,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.3,SDG Target 17.3,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.4,SDG Target 17.4,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.5,SDG Target 17.5,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.6,SDG Target 17.6,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.7,SDG Target 17.7,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.8,SDG Target 17.8,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.9,SDG Target 17.9,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.10.,SDG Target 17.10.,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.11,SDG Target 17.11,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.12,SDG Target 17.12,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.13,SDG Target 17.13,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.14,SDG Target 17.14,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.15,SDG Target 17.15,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.16,SDG Target 17.16,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.17,SDG Target 17.17,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.18,SDG Target 17.18,,SDG_17_Partnership_for_Goals,TOPIC
-SDG_target_17.19,SDG Target 17.19,,SDG_17_Partnership_for_Goals,TOPIC
+sustainable_development_goals,Sustainable Development Goals,SDGs,general,SDG
+SDG_1_No_Poverty,SDG 1 No Poverty,,sustainable_development_goals,SDG
+SDG_2_Zero_Hunger,SDG 2 Zero Hunger,,sustainable_development_goals,SDG
+SDG_3_Good_Health_and_Well-being,SDG 3 Good Health and Well-being,,sustainable_development_goals,SDG
+SDG_4_Quality_Education,SDG 4 Quality Education,,sustainable_development_goals,SDG
+SDG_5_Gender_Equality,SDG 5 Gender Equality,,sustainable_development_goals,SDG
+SDG_6_Clean_Water_and_Sanitation,SDG 6 Clean Water and Sanitation,,sustainable_development_goals,SDG
+SDG_7_Affordable_and_Clean_Energy,SDG 7 Affordable and Clean Energy,,sustainable_development_goals,SDG
+SDG_8_Decent_Work_and_Economic_Growth,SDG 8 Decent Work and Economic Growth,,sustainable_development_goals,SDG
+SDG_9_Industry_Innovation_and_Infrastructure,SDG 9 Industry, Innovation and Infrastructure,,sustainable_development_goals,SDG
+SDG_10_Reduced_Inequalities,SDG 10 Reduced Inequalities,,sustainable_development_goals,SDG
+SDG_11_Sustainable_Cities_and_Communities,SDG 11 Sustainable Cities and Communities,,sustainable_development_goals,SDG
+SDG_12_Responsible_Consumption_and_Production,SDG 12 Responsible Consumption and Production,,sustainable_development_goals,SDG
+SDG_13_Climate_Action,SDG 13 Climate Action,,sustainable_development_goals,SDG
+SDG_14_Life_below_Water,SDG 14 Life below Water,,sustainable_development_goals,SDG
+SDG_15_Life_on_Land,SDG 15 Life on Land,,sustainable_development_goals,SDG
+SDG_16_Peace_Justice_and_Strong_Institutions,SDG 16 Peace Justice and Strong Institutions,,sustainable_development_goals,SDG
+SDG_17_Partnership_for_Goals,SDG 17 Partnership for Goals,,sustainable_development_goals,SDG
