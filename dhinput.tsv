@@ -1,0 +1,635 @@
+<|	Element	Type	Label	Synonyms	Parent (Tree selector)	Applications	is_a	part_of	located_at	affects	can_affect	is_involved_in	quality_of	related_to
+	Definition	One or more from the set: TOPIC, GEOGRAPHY, DATA_TYPE, FREQUENCY, TIME_PERIOD, SDG		Synonyms of the concept	This is the parent that will be used in the tree selectors (like those in Explore) in case there's more than one parent for the same concept and we have to choose one to show. This column DOES NOT AFFECT the structure of the graph	(Only in terms of visibility in the filters/search) This DOES NOT AFFECT the structure of the graph	instance of a type or category (No loops)	physically located within (No loops - only geography)	physically coincident. Ex. Cars are located_at roads	High likelihood may result in or make changes to (term results in changes to _____)	Some likelihood may result in or make changes to (term results in changes to _____)	conceptually part of	an attribute of a category or instance (No loops)	general relationships that don't fit well in other categories
+266	frequency	FREQUENCY	Frequency		general		general							
+267	daily	FREQUENCY	Daily		frequency	data4sdgs	frequency							
+268	near_real_time	FREQUENCY	Near Real Time		frequency	data4sdgs	frequency							
+269	weekly	FREQUENCY	Weekly		frequency	data4sdgs	frequency							
+270	monthly	FREQUENCY	Monthly		frequency	data4sdgs	frequency							
+271	annual	FREQUENCY	Annual		frequency	data4sdgs	frequency							
+	hourly	FREQUENCY	Hourly		frequency	data4sdgs	frequency							
+	not_updated	FREQUENCY	Not Updated		frequency	data4sdgs	frequency							
+	subscribable	FREQUENCY	Subscribable		frequency	data4sdgs								
+2	continent	GEOGRAPHY	Continent		global	data4sdgs		global						
+3	antarctica	GEOGRAPHY	Antarctica		continent	data4sdgs	continent							
+4	territory	GEOGRAPHY	Territory		global	data4sdgs		global						
+5	global	GEOGRAPHY	Global		location		location							
+6	overseas_territory	GEOGRAPHY	Overseas Territory		territory	data4sdgs		territory						
+7	crown_dependency	GEOGRAPHY	Crown Dependency		uk	data4sdgs		uk						
+8	unincorporated_territory	GEOGRAPHY	Unincorporated Territory		usa	data4sdgs								usa
+9	autonomous_territory	GEOGRAPHY	Autonomous Territory		territory		territory							
+10	country	GEOGRAPHY	Country		global	data4sdgs		global						
+	admin1	GEOGRAPHY	Admin1		country	data4sdgs		country						
+11	europe	GEOGRAPHY	Europe		continent	data4sdgs	continent							
+12	north_america	GEOGRAPHY	North America		continent	data4sdgs	continent							
+13	south_america	GEOGRAPHY	South America		continent	data4sdgs	continent							
+14	oceania	GEOGRAPHY	Oceania		continent	data4sdgs	continent							
+15	africa	GEOGRAPHY	Africa		continent	data4sdgs	continent							
+16	asia	GEOGRAPHY	Asia		continent	data4sdgs	continent							
+17	european_free_trade_association	GEOGRAPHY	European Free Trade Association		europe	data4sdgs		europe						
+18	schengen_area	GEOGRAPHY	Schengen Area		europe	data4sdgs			europe					
+19	eu	GEOGRAPHY	EU	European Union	europe	data4sdgs		europe						
+21	oecd	GEOGRAPHY	OECD	Organisation for Economic Co-operation and Development	affiliation	data4sdgs	affiliation							economic
+22	spain	GEOGRAPHY	Spain		eu	data4sdgs	country	eu, schengen_area, oecd						
+23	portugal	GEOGRAPHY	Portugal		eu	data4sdgs	country	eu, schengen_area, oecd						
+24	germany	GEOGRAPHY	Germany		eu	data4sdgs	country	eu, schengen_area, oecd						
+25	uk	GEOGRAPHY	United Kingdom		europe	data4sdgs	island, country	eu, oecd						
+26	italy	GEOGRAPHY	Italy		eu	data4sdgs	country	eu, schengen_area, oecd						
+27	ireland	GEOGRAPHY	Ireland		eu	data4sdgs	country	eu, oecd						
+28	malta	GEOGRAPHY	Malta		eu	data4sdgs	island, country	eu, schengen_area						
+29	belgium	GEOGRAPHY	Belgium		eu	data4sdgs	country	eu, schengen_area, oecd						
+30	austria	GEOGRAPHY	Austria		eu	data4sdgs	country	eu, schengen_area, oecd						
+31	latvia	GEOGRAPHY	Latvia		eu	data4sdgs	country	eu, schengen_area, oecd						
+32	bulgaria	GEOGRAPHY	Bulgaria		eu	data4sdgs	country	eu						
+33	lithuania	GEOGRAPHY	Lithuania		eu	data4sdgs	country	eu, schengen_area						
+34	luxembourg	GEOGRAPHY	Luxembourg		eu	data4sdgs	country	eu, schengen_area, oecd						
+35	croatia	GEOGRAPHY	Croatia		eu	data4sdgs	country	eu						
+36	cyprus	GEOGRAPHY	Cyprus		eu	data4sdgs	country	eu						
+37	czech_republic	GEOGRAPHY	Czech Republic		eu	data4sdgs	country	eu, schengen_area, oecd						
+38	netherlands	GEOGRAPHY	Netherlands		eu	data4sdgs	country	eu, schengen_area, oecd						
+39	denmark	GEOGRAPHY	Denmark		eu	data4sdgs	country	eu, schengen_area, oecd						
+40	poland	GEOGRAPHY	Poland		eu	data4sdgs	country	eu, oecd						
+41	estonia	GEOGRAPHY	Estonia		eu	data4sdgs	country	eu, schengen_area, oecd						
+42	finland	GEOGRAPHY	Finland		eu	data4sdgs	country	eu, schengen_area, oecd						
+43	slovakia	GEOGRAPHY	Slovakia		eu	data4sdgs	country	eu, schengen_area, oecd						
+44	romania	GEOGRAPHY	Romania		eu	data4sdgs	country	eu						
+45	slovenia	GEOGRAPHY	Slovenia		eu	data4sdgs	country	eu, schengen_area, oecd						
+46	greece	GEOGRAPHY	Greece		eu	data4sdgs	country	eu, schengen_area, oecd						
+47	hungary	GEOGRAPHY	Hungary		eu	data4sdgs	country	eu, schengen_area, oecd						
+48	sweden	GEOGRAPHY	Sweden		eu	data4sdgs	country	eu, schengen_area, oecd						
+49	france	GEOGRAPHY	France		eu	data4sdgs	country	eu, schengen_area, oecd						
+50	afghanistan	GEOGRAPHY	Afghanistan		asia	data4sdgs	country	asia						
+51	aland	GEOGRAPHY	Aland		finland	data4sdgs	autonomous_territory	finland						
+52	albania	GEOGRAPHY	Albania		europe	data4sdgs	country	europe						
+53	algeria	GEOGRAPHY	Algeria		africa	data4sdgs	country	africa						
+54	american_samoa	GEOGRAPHY	American Samoa		oceania	data4sdgs	island, unincorporated_territory	oceania						
+55	andorra	GEOGRAPHY	Andorra		europe	data4sdgs	country	europe						
+56	angola	GEOGRAPHY	Angola		africa	data4sdgs	country	africa						
+57	anguilla	GEOGRAPHY	Anguilla		north_america	data4sdgs	island	north_america						
+58	antigua_and_barbuda	GEOGRAPHY	Antigua and Barbuda		north_america	data4sdgs	island	north_america						
+59	argentina	GEOGRAPHY	Argentina		south_america	data4sdgs	country	south_america						
+60	armenia	GEOGRAPHY	Armenia		asia	data4sdgs	country	asia						
+61	aruba	GEOGRAPHY	Aruba		south_america	data4sdgs	island, country	south_america						
+62	australia	GEOGRAPHY	Australia		oceania	data4sdgs	island, country	oceania, oecd						
+63	azerbaijan	GEOGRAPHY	Azerbaijan		asia	data4sdgs	country	europe, asia						
+64	bahamas	GEOGRAPHY	Bahamas		north_america	data4sdgs	island, country	north_america						
+65	bahrain	GEOGRAPHY	Bahrain		asia	data4sdgs	island, country	asia						
+66	bangladesh	GEOGRAPHY	Bangladesh		asia	data4sdgs	country	asia						
+67	barbados	GEOGRAPHY	Barbados		north_america	data4sdgs	island, country	north_america						
+68	belarus	GEOGRAPHY	Belarus		europe	data4sdgs	country	europe						
+69	belize	GEOGRAPHY	Belize		north_america	data4sdgs	country	north_america						
+70	benin	GEOGRAPHY	Benin		africa	data4sdgs	country	africa						
+71	bermuda	GEOGRAPHY	Bermuda		uk	data4sdgs	island, overseas_territory	uk, north_america						
+72	bhutan	GEOGRAPHY	Bhutan		asia	data4sdgs	country	asia						
+73	bolivia	GEOGRAPHY	Bolivia		south_america	data4sdgs	country	south_america						
+74	bosnia_and_herzegovina	GEOGRAPHY	Bosnia and Herzegovina		europe	data4sdgs	country	europe						
+75	botswana	GEOGRAPHY	Botswana		africa	data4sdgs	country	africa						
+76	brazil	GEOGRAPHY	Brazil		south_america	data4sdgs	country	south_america						
+77	british_indian_ocean_territory	GEOGRAPHY	British Indian Ocean Territory		uk	data4sdgs	island, overseas_territory	uk, asia						
+78	brunei	GEOGRAPHY	Brunei		asia	data4sdgs	country	asia						
+79	burkina_faso	GEOGRAPHY	Burkina Faso		africa	data4sdgs	country	africa						
+80	burundi	GEOGRAPHY	Burundi		africa	data4sdgs	country	africa						
+81	cambodia	GEOGRAPHY	Cambodia		asia	data4sdgs	country	asia						
+82	cameroon	GEOGRAPHY	Cameroon		africa	data4sdgs	country	africa						
+83	canada	GEOGRAPHY	Canada		north_america	data4sdgs	country	north_america, oecd						
+84	cape_verde	GEOGRAPHY	Cape_Verde		africa	data4sdgs	country	africa						
+85	cayman_islands	GEOGRAPHY	Cayman Islands		uk	data4sdgs	island, overseas_territory	north_america, uk						
+86	central_african_republic	GEOGRAPHY	Central African Republic		africa	data4sdgs	country	africa						
+87	chad	GEOGRAPHY	Chad		africa	data4sdgs	country	africa						
+88	chile	GEOGRAPHY	Chile		south_america	data4sdgs	country	south_america, oecd						
+89	china	GEOGRAPHY	China		asia	data4sdgs	country	asia						
+90	colombia	GEOGRAPHY	Colombia		south_america	data4sdgs	country	south_america						
+91	comoros	GEOGRAPHY	Comoros		africa	data4sdgs	island, country	africa						
+92	congo	GEOGRAPHY	Congo		africa	data4sdgs	country	africa						
+93	democratic_republic_of_congo	GEOGRAPHY	Democratic Republic of the Congo		africa	data4sdgs	country	africa						
+94	cook_islands	GEOGRAPHY	Cook islands		oceania	data4sdgs	island	oceania						
+95	costa_rica	GEOGRAPHY	Costa Rica		north_america	data4sdgs	country	north_america						
+96	ivory_coast	GEOGRAPHY	Ivory Coast		africa	data4sdgs	country	africa						
+97	cuba	GEOGRAPHY	Cuba		north_america	data4sdgs	island	north_america						
+98	curacao	GEOGRAPHY	Curaçao		netherlands	data4sdgs	island, autonomous_territory	south_america, netherlands						
+99	djibouti	GEOGRAPHY	Djibouti		africa	data4sdgs	country	africa						
+100	dominica	GEOGRAPHY	Dominica		north_america	data4sdgs	island, country	north_america						
+101	dominican_republic	GEOGRAPHY	Dominican Republic		north_america	data4sdgs	island, country	north_america						
+102	ecuador	GEOGRAPHY	Ecuador		south_america	data4sdgs	country	south_america						
+103	egypt	GEOGRAPHY	Egypt		africa	data4sdgs	country	africa						
+104	el_salvador	GEOGRAPHY	El Salvador		north_america	data4sdgs	country	north_america						
+105	equatorial_guinea	GEOGRAPHY	Equatorial Guinea		africa	data4sdgs	country	africa						
+106	eritrea	GEOGRAPHY	Eritrea		africa	data4sdgs	country	africa						
+107	ethiopia	GEOGRAPHY	Ethiopia		africa	data4sdgs	country	africa						
+108	falkland_islands	GEOGRAPHY	Falkland Islands		uk	data4sdgs	island, overseas_territory	south_america, uk						
+109	faroe_islands	GEOGRAPHY	Faroe Islands		denmark	data4sdgs	island, autonomous_territory	europe, denmark						
+110	fiji	GEOGRAPHY	Fiji		oceania	data4sdgs	island, country	oceania						
+111	french_polynesia	GEOGRAPHY	French Polynesia		france	data4sdgs	island, overseas_territory	oceania, france						
+112	french_southern_and_antarctic_lands	GEOGRAPHY	French Southern and Antarctic Lands		france	data4sdgs	island, overseas_territory	africa, france, antarctica						
+113	gabon	GEOGRAPHY	Gabon		africa	data4sdgs	country	africa						
+114	gambia	GEOGRAPHY	Gambia		africa	data4sdgs	country	africa						
+115	georgia	GEOGRAPHY	Georgia		europe	data4sdgs	country	europe, asia						
+116	ghana	GEOGRAPHY	Ghana		africa	data4sdgs	country	africa						
+117	gibraltar	GEOGRAPHY	Gibraltar		uk	data4sdgs	overseas_territory	europe, uk						
+118	greenland	GEOGRAPHY	Greenland		denmark	data4sdgs	island, autonomous_territory	north_america, denmark						
+119	grenada	GEOGRAPHY	Grenada		north_america	data4sdgs	island, country	north_america						
+120	guam	GEOGRAPHY	Guam		oceania	data4sdgs	island, country	oceania						
+121	guatemala	GEOGRAPHY	Guatemala		north_america	data4sdgs	country	north_america						
+122	guernsey	GEOGRAPHY	Guernsey		crown_dependency	data4sdgs	crown_dependency	europe						
+123	guinea	GEOGRAPHY	Guinea		africa	data4sdgs	country	africa						
+124	guinea_bissau	GEOGRAPHY	Guinea-Bissau		africa	data4sdgs	country	africa						
+125	guyana	GEOGRAPHY	Guyana		south_america	data4sdgs	country	south_america						
+126	haiti	GEOGRAPHY	Haiti		north_america	data4sdgs	island, country	north_america						
+127	heard_island_and_mcdoland_islands	GEOGRAPHY	Heard Island and McDonald Islands		australia	data4sdgs	island, overseas_territory	australia, antarctica						
+128	vatican	GEOGRAPHY	Vatican		europe	data4sdgs	country	europe						
+129	honduras	GEOGRAPHY	Honduras		north_america	data4sdgs	country	north_america						
+130	hong_kong	GEOGRAPHY	Hong Kong		asia	data4sdgs	country	asia						
+131	iceland	GEOGRAPHY	Iceland		europe	data4sdgs	country, island	europe, european_free_trade_association, oecd						
+132	india	GEOGRAPHY	India		asia	data4sdgs	country	asia						
+	sikkim	GEOGRAPHY	Sikkim		india	data4sdgs	admin1	india						
+	rajasthan	GEOGRAPHY	Rajasthan		india	data4sdgs	admin1	india						
+	punjab	GEOGRAPHY	Punjab		india	data4sdgs	admin1	india						
+	puducherry	GEOGRAPHY	Puducherry		india	data4sdgs	admin1	india						
+	odisha	GEOGRAPHY	Odisha		india	data4sdgs	admin1	india						
+	nagaland	GEOGRAPHY	Nagaland		india	data4sdgs	admin1	india						
+	mizoram	GEOGRAPHY	Mizoram		india	data4sdgs	admin1	india						
+	meghalaya	GEOGRAPHY	Meghalaya		india	data4sdgs	admin1	india						
+	manipur	GEOGRAPHY	Manipur		india	data4sdgs	admin1	india						
+	maharashtra	GEOGRAPHY	Maharashtra		india	data4sdgs	admin1	india						
+	madhya_pradesh	GEOGRAPHY	Madhya Pradesh		india	data4sdgs	admin1	india						
+	lakshadweep	GEOGRAPHY	Lakshadweep		india	data4sdgs	admin1	india						
+	kerala	GEOGRAPHY	Kerala		india	data4sdgs	admin1	india						
+	karnataka	GEOGRAPHY	Karnataka		india	data4sdgs	admin1	india						
+	west_bengal	GEOGRAPHY	West Bengal		india	data4sdgs	admin1	india						
+	uttar_pradesh	GEOGRAPHY	Uttar Pradesh		india	data4sdgs	admin1	india						
+	tripura	GEOGRAPHY	Tripura		india	data4sdgs	admin1	india						
+	telangana	GEOGRAPHY	Telangana		india	data4sdgs	admin1	india						
+	tamil_nadu	GEOGRAPHY	Tamil Nadu		india	data4sdgs	admin1	india						
+	jammu_and_kashmir	GEOGRAPHY	Jammu and Kashmir		india	data4sdgs	admin1	india						
+	himachal_pradesh	GEOGRAPHY	Himachal Pradesh		india	data4sdgs	admin1	india						
+	haryana	GEOGRAPHY	Haryana		india	data4sdgs	admin1	india						
+	gujarat	GEOGRAPHY	Gujarat		india	data4sdgs	admin1	india						
+	daman_and_diu	GEOGRAPHY	Daman and Diu		india	data4sdgs	admin1	india						
+	goa	GEOGRAPHY	Goa		india	data4sdgs	admin1	india						
+	delhi	GEOGRAPHY	Delhi		india	data4sdgs	admin1	india						
+	dadra_and_nagar_haveli	GEOGRAPHY	Dadra and Nagar Haveli		india	data4sdgs	admin1	india						
+	chandigarh	GEOGRAPHY	Chandigarh		india	data4sdgs	admin1	india						
+	bihar	GEOGRAPHY	Bihar		india	data4sdgs	admin1	india						
+	assam	GEOGRAPHY	Assam		india	data4sdgs	admin1	india						
+	arunachal_pradesh	GEOGRAPHY	Arunachal Pradesh		india	data4sdgs	admin1	india						
+	andhra_pradesh	GEOGRAPHY	Andhra Pradesh		india	data4sdgs	admin1	india						
+	andaman_and_nicobar_islands	GEOGRAPHY	Andaman and Nicobar Islands		india	data4sdgs	admin1	india						
+	chhattisgarh	GEOGRAPHY	Chhattisgarh		india	data4sdgs	admin1	india						
+	jharkhand	GEOGRAPHY	Jharkhand		india	data4sdgs	admin1	india						
+	uttarakhand	GEOGRAPHY	Uttarakhand		india	data4sdgs	admin1	india						
+133	indonesia	GEOGRAPHY	Indonesia		asia	data4sdgs	country	asia						
+134	iran	GEOGRAPHY	Iran		asia	data4sdgs	country	asia						
+135	iraq	GEOGRAPHY	Iraq		asia	data4sdgs	country	asia						
+136	isle_of_man	GEOGRAPHY	Isle of Man		crown_dependency	data4sdgs	island, crown_dependency	europe						
+137	israel	GEOGRAPHY	Israel		asia	data4sdgs	country	asia, oecd						
+138	jamaica	GEOGRAPHY	Jamaica		north_america	data4sdgs	island, country	north_america						
+139	japan	GEOGRAPHY	Japan		asia	data4sdgs	island, country	asia, oecd						
+140	jersey	GEOGRAPHY	Jersey		crown_dependency	data4sdgs	island, crown_dependency	europe						
+141	jordan	GEOGRAPHY	Jordan		asia	data4sdgs	country	asia						
+142	kazakhstan	GEOGRAPHY	Kazakhstan		asia	data4sdgs	country	asia						
+143	kenya	GEOGRAPHY	Kenya		africa	data4sdgs	country	africa						
+144	kiribati	GEOGRAPHY	Kiribati		oceania	data4sdgs	island, country	oceania						
+145	democratic_republic_of_korea	GEOGRAPHY	Democratic Republic of Korea		asia	data4sdgs	country	asia						
+146	south_korea	GEOGRAPHY	South Korea		asia	data4sdgs	country	asia, oecd						
+147	kuwait	GEOGRAPHY	Kuwait		asia	data4sdgs	country	asia						
+148	kyrgyzstan	GEOGRAPHY	Kyrgyzstan		asia	data4sdgs	country	asia						
+149	laos	GEOGRAPHY	Lao People's Democratic Republic		asia	data4sdgs	country	asia						
+150	lebanon	GEOGRAPHY	Lebanon		asia	data4sdgs	country	asia						
+151	lesotho	GEOGRAPHY	Lesotho		africa	data4sdgs	country	africa						
+152	liberia	GEOGRAPHY	Liberia		africa	data4sdgs	country	africa						
+153	libya	GEOGRAPHY	Libya		africa	data4sdgs	country	africa						
+154	liechtenstein	GEOGRAPHY	Liechtenstein		europe	data4sdgs	country	europe, european_free_trade_association						
+155	macao	GEOGRAPHY	Macao		china	data4sdgs	autonomous_territory	china, asia						
+156	macedonia	GEOGRAPHY	Macedonia		europe	data4sdgs	country	europe						
+157	madagascar	GEOGRAPHY	Madagascar		africa	data4sdgs	country, island	africa						
+158	malawi	GEOGRAPHY	Malawi		africa	data4sdgs	country	africa						
+159	malaysia	GEOGRAPHY	Malaysia		asia	data4sdgs	country	asia						
+160	maldives	GEOGRAPHY	Maldives		asia	data4sdgs	country, island	asia						
+161	mali	GEOGRAPHY	Mali		africa	data4sdgs	country	africa						
+162	marshall_islands	GEOGRAPHY	Marshall Islands		oceania	data4sdgs	island	oceania						
+163	mauritania	GEOGRAPHY	Mauritania		africa	data4sdgs	country	africa						
+164	mauritius	GEOGRAPHY	Mauritius		africa	data4sdgs	country, island	africa						
+165	mexico	GEOGRAPHY	Mexico		north_america	data4sdgs	country	north_america, oecd						
+166	micronesia	GEOGRAPHY	Micronesia		oceania	data4sdgs	country, island	oceania						
+167	moldova	GEOGRAPHY	Moldova		europe	data4sdgs	country	europe						
+168	monaco	GEOGRAPHY	Monaco		europe	data4sdgs	country	europe						
+169	mongolia	GEOGRAPHY	Mongolia		asia	data4sdgs	country	asia						
+170	montenegro	GEOGRAPHY	Montenegro		europe	data4sdgs	country	europe						
+171	montserrat	GEOGRAPHY	Montserrat		uk	data4sdgs	overseas_territory, island	north_america, uk						
+172	morocco	GEOGRAPHY	Morocco		africa	data4sdgs	country	africa						
+173	mozambique	GEOGRAPHY	Mozambique		africa	data4sdgs	country	africa						
+174	myanmar	GEOGRAPHY	Myanmar		asia	data4sdgs	country	asia						
+175	namibia	GEOGRAPHY	Namibia		africa	data4sdgs	country	africa						
+176	nauru	GEOGRAPHY	Nauru		oceania	data4sdgs	country, island	oceania						
+177	nepal	GEOGRAPHY	Nepal		asia	data4sdgs	country	asia						
+178	new_caledonia	GEOGRAPHY	New Caledonia		france	data4sdgs	overseas_territory, island	france, oceania						
+179	new_zealand	GEOGRAPHY	New Zealand		oceania	data4sdgs	island, country	oceania, oecd						
+180	nicaragua	GEOGRAPHY	Nicaragua		north_america	data4sdgs	country	north_america						
+181	niger	GEOGRAPHY	Niger		africa	data4sdgs	country	africa						
+182	nigeria	GEOGRAPHY	Nigeria		africa	data4sdgs	country	africa						
+183	niue	GEOGRAPHY	Niue		oceania	data4sdgs	country, island	oceania						
+184	norfolk_island	GEOGRAPHY	Norfolk Island		australia	data4sdgs	overseas_territory, island	oceania, australia						
+185	northern_mariana_islands	GEOGRAPHY	Northern Mariana Islands		usa	data4sdgs	island, overseas_territory	oceania, usa						
+186	norway	GEOGRAPHY	Norway		europe	data4sdgs	country	europe, shengen_area, european_free_trade_association, oecd						
+187	oman	GEOGRAPHY	Oman		asia	data4sdgs	country	asia						
+188	pakistan	GEOGRAPHY	Pakistan		asia	data4sdgs	country	asia						
+189	palau	GEOGRAPHY	Palau		oceania	data4sdgs	country, island	oceania						
+190	palestine	GEOGRAPHY	Palestine		asia	data4sdgs	territory	asia						
+191	panama	GEOGRAPHY	Panama		north_america	data4sdgs	country	north_america						
+192	papua_new_guinea	GEOGRAPHY	Papua New Guinea		oceania	data4sdgs	country, island	oceania						
+193	paraguay	GEOGRAPHY	Paraguay		south_america	data4sdgs	country	south_america						
+194	peru	GEOGRAPHY	Peru		south_america	data4sdgs	country	south_america						
+195	philippines	GEOGRAPHY	Philippines		asia	data4sdgs	island, country	asia						
+196	pitcairn_islands	GEOGRAPHY	Pitcairn Islands		oceania	data4sdgs	island, overseas_territory	australia,oceania						
+197	puerto_rico	GEOGRAPHY	Puerto Rico		north_america	data4sdgs	island, unincorporated_territory	north_america						
+198	qatar	GEOGRAPHY	Qatar		asia	data4sdgs	country	asia						
+199	russia	GEOGRAPHY	Russia		asia	data4sdgs	country	europe, asia						
+200	rwanda	GEOGRAPHY	Rwanda		africa	data4sdgs	country	africa						
+201	saint_barthelemy	GEOGRAPHY	Saint Barthélemy		north_america	data4sdgs	overseas_territory, island	north_america						
+202	saint_helena	GEOGRAPHY	Saint Helena		uk	data4sdgs	island, overseas_territory	africa, uk						
+203	saint_kitts_and_nevis	GEOGRAPHY	Saint Kitts and Nevis		north_america	data4sdgs	country, island	north_america						
+204	saint_lucia	GEOGRAPHY	Saint Lucia		north_america	data4sdgs	country, island	north_america						
+205	saint_martin	GEOGRAPHY	Saint Martin		france	data4sdgs	island, overseas_territory	france, north_america						
+206	saint_pierre_and_miquelon	GEOGRAPHY	Saint Pierre and Miquelon		france	data4sdgs	island, overseas_territory	france, north_america						
+207	saint_vincent_and_the_grenadines	GEOGRAPHY	Saint Vincent and the Grenadines		north_america	data4sdgs	island, country	north_america						
+208	samoa	GEOGRAPHY	Samoa		oceania	data4sdgs	country, island	oceania						
+209	san_marino	GEOGRAPHY	San Marino		europe	data4sdgs	country	europe						
+210	sao_tome_and_principe	GEOGRAPHY	São Tomé and Principe		africa	data4sdgs	country	africa						
+211	saudi_arabia	GEOGRAPHY	Saudi Arabia		africa	data4sdgs	country	africa						
+212	senegal	GEOGRAPHY	Senegal		africa	data4sdgs	country	africa						
+213	serbia	GEOGRAPHY	Serbia		europe	data4sdgs	country	europe						
+214	seychelles	GEOGRAPHY	Seychelles		africa	data4sdgs		africa						
+215	sierra_leone	GEOGRAPHY	Sierra Leone		africa	data4sdgs	country	africa						
+216	singapore	GEOGRAPHY	Singapore		asia	data4sdgs	country	asia						
+217	sint_marteen	GEOGRAPHY	Sint Maarten		netherlands	data4sdgs	island, overseas_territory	north_america, netherlands						
+218	solomon_islands	GEOGRAPHY	Solomon Islands		oceania	data4sdgs	country, island	oceania						
+219	somalia	GEOGRAPHY	Somalia		africa	data4sdgs	country	africa						
+220	south_africa	GEOGRAPHY	South Africa		africa	data4sdgs	country	africa						
+221	south_georgia_and_the_south_sandwich_islands	GEOGRAPHY	South Georgia and the South Sandwich Islands		uk	data4sdgs	island, overseas_territory	antarctica, uk						
+222	south_sudan	GEOGRAPHY	South Sudan		africa	data4sdgs	country	africa						
+223	sri_lanka	GEOGRAPHY	Sri Lanka		asia	data4sdgs	island, country	asia						
+224	sudan	GEOGRAPHY	Sudan		africa	data4sdgs	country	africa						
+225	suriname	GEOGRAPHY	Suriname		south_america	data4sdgs	country	south_america						
+226	swaziland	GEOGRAPHY	Swaziland		africa	data4sdgs	country	africa						
+227	switzerland	GEOGRAPHY	Switzerland		europe	data4sdgs	country	europe, european_free_trade_association, oecd						
+228	syria	GEOGRAPHY	Syria		asia	data4sdgs	country	asia						
+229	taiwan	GEOGRAPHY	Taiwan		asia	data4sdgs	country	asia						
+230	tajikistan	GEOGRAPHY	Tajikistan		asia	data4sdgs	country	asia						
+231	tanzania	GEOGRAPHY	Tanzania		africa	data4sdgs	country	africa						
+232	thailand	GEOGRAPHY	Thailand		asia	data4sdgs	country	asia						
+233	timor_lest	GEOGRAPHY	Timor-Leste		asia	data4sdgs	country	asia						
+234	togo	GEOGRAPHY	Togo		africa	data4sdgs	country	africa						
+235	tonga	GEOGRAPHY	Tonga		oceania	data4sdgs	country	oceania						
+236	trinidad_and_tobago	GEOGRAPHY	Trinidad and Tobago		south_america	data4sdgs	country	south_america						
+237	tunisia	GEOGRAPHY	Tunisia		africa	data4sdgs	country	africa						
+238	turkey	GEOGRAPHY	Turkey		asia	data4sdgs	country	europe, asia, oecd						
+239	turkmenistan	GEOGRAPHY	Turkmenistan		asia	data4sdgs	country	asia						
+240	turks_and_caicos_islands	GEOGRAPHY	Turks and Caicos Islands		uk	data4sdgs	overseas_territory, island	uk, north_america						
+241	tuvalu	GEOGRAPHY	Tuvalu		oceania	data4sdgs	island, country	oceania						
+242	uganda	GEOGRAPHY	Uganda		africa	data4sdgs	country	africa						
+243	ukraine	GEOGRAPHY	Ukraine		europe	data4sdgs	country	europe						
+244	united_arab_emirates	GEOGRAPHY	United Arab Emirates		asia	data4sdgs	country	asia						
+245	usa	GEOGRAPHY	United States	usa	north_america	data4sdgs	country	north_america, oecd						
+246	united_states_minor_outlying_islands	GEOGRAPHY	United States Minor Outlying Islands		usa	data4sdgs	overseas_territory	usa, north_america						
+247	uruguay	GEOGRAPHY	Uruguay		south_america	data4sdgs	country	south_america						
+248	uzbekistan	GEOGRAPHY	Uzbekistan		asia	data4sdgs	country	asia						
+249	vanuatu	GEOGRAPHY	Vanuatu		oceania	data4sdgs	island, country	oceania						
+250	venezuela	GEOGRAPHY	Venezuela		south_america	data4sdgs	country	south_america						
+251	vietnam	GEOGRAPHY	Vietnam		asia	data4sdgs	country	asia						
+252	british_virgin_islands	GEOGRAPHY	British Virgin Islands	bvi	uk	data4sdgs	island, overseas_territory	uk, north_america						
+253	united_states_virgin_islands	GEOGRAPHY	United States Virgin Islands	usvi	usa	data4sdgs	island, overseas_territory	usa, north_america						
+254	wallis_and_futuna	GEOGRAPHY	Wallis and Futuna		france	data4sdgs	island, overseas_territory	france, oceania						
+255	western_sahara	GEOGRAPHY	Western Sahara		africa	data4sdgs	territory	africa						
+256	yemen	GEOGRAPHY	Yemen		asia	data4sdgs	country	asia						
+257	zambia	GEOGRAPHY	Zambia		africa	data4sdgs	country	africa						
+258	zimbabwe	GEOGRAPHY	Zimbabwe		africa	data4sdgs	country	africa						
+259	coral_sea_islands_territory	GEOGRAPHY	Coral Sea Islands Territory		australia	data4sdgs	overseas_territory, island	australia, oceania						
+260	republic_of_kosovo	GEOGRAPHY	Republic of Kosovo		europe	data4sdgs	country	europe						
+273	island	GEOGRAPHY	Island		global	data4sdgs	global							
+	future	TIME_PERIOD	Future		time_period	data4sdgs	time_period							
+	historical	TIME_PERIOD	Historical		time_period	data4sdgs	time_period							
+	time_period	TIME_PERIOD	Time Period		general	data4sdgs	general							
+1	general	TOPIC	General			data4sdgs								
+20	un	TOPIC	UN	United Nations	affiliation	data4sdgs	affiliation							
+274	erosion	TOPIC	Erosion		land	data4sdgs					water_quality, hydropower		land	
+275	sedimentation	TOPIC	Sedimentation		water_quality	data4sdgs				water_quality				water
+280	commodity	TOPIC	Commodity	commodities	commerce	data4sdgs				food_price,shipping	infrastructure		commerce	
+281	plant	TOPIC	Plants	plant	species	data4sdgs	species							
+282	infrastructure	TOPIC	Infrastructure		general	data4sdgs	general			accessibility	energy_efficiency			
+283	natural_infrastructure	TOPIC	Natural Infrastructure	Green Infrastructure	ecosystem	data4sdgs	ecosystem			flood,water_access,water_quality,forest,land_use,land_cover	disasters, resilience			
+286	animal	TOPIC	Animals	animal	species	data4sdgs	species							
+292	explosion	TOPIC	Explosions	Explosion	disasters	data4sdgs	disasters			infrastructure	damage,mortality			
+293	damage	TOPIC	Damages		economic	data4sdgs	economic				financial_loss			explosion,natural_hazard,extreme_event
+294	land	TOPIC	Land	Area	general	data4sdgs	general							
+295	extreme_event	TOPIC	Extreme Events	Extreme Event	climate	data4sdgs							climate	weather
+297	conflict 	TOPIC	Conflicts	conflict|violence	society	data4sdgs				mortality, damage, displaced_people,supply_chain	migration		society	
+298	temperature	TOPIC	Temperature	Temperatures	climate	data4sdgs	weather			sea_level_rise, snow_and_ice	health,drought,permafrost		climate	
+299	exploitation	TOPIC	Exploitation		commercial_activity	data4sdgs	commercial_activity			water_scarcity, deforestation, habitat_loss, fishery	groundwater			land_rights, commerce
+301	coast 	TOPIC	Coasts	Coast	land	data4sdgs	land			vulnerability				
+302	wetland	TOPIC	Wetlands	Wetland	land	data4sdgs	land				storm_surge,habitat			water
+303	financial_loss	TOPIC	Financial Loss	Financial Losses	finance	data4sdgs				gdp,infrastructure,income,vulnerability,resilience	governance		economic	
+304	forest	TOPIC	Forests	Forest|Trees	general	data4sdgs	general			biodiversity				
+305	fire	TOPIC	Fires	Fire	disasters	data4sdgs	disasters			forest,weather	erosion,health,infrastructure			
+306	deforestation	TOPIC	Deforestation		forest	data4sdgs				erosion, forest_loss,landslide,biodiversity,emissions	water_quality, ghg,habitat_loss,		forest	
+307	logging	TOPIC	Logging		commercial_activity	data4sdgs	commercial_activity			forest,deforestation	deforestation			
+308	mangroves	TOPIC	Mangroves		forest	data4sdgs	forest, natural_infrastructure		coast, wetland	water_quality,infrastructure,land_cover	storm, damage, resilience,vulnerability			
+	trees	TOPIC	Trees		forest	data4sdgs	forest							
+	forestry	TOPIC	Forestry		human_activity	data4sdgs	human_activity, commercial_activity							
+309	degradation	TOPIC	Degradation		forest	data4sdgs				forest, habitat	biodiversity		forest	
+310	forest_cover	TOPIC	Forest Cover		forest	data4sdgs	forest				biodiversity		forest	
+314	intact_forest	TOPIC	Intact Forests		forest	data4sdgs	forest				biodiversity			
+315	water	TOPIC	Water		general	data4sdgs	general							
+316	drought	TOPIC	Drought	Droughts	natural_disaster	data4sdgs	natural_disaster			water_scarcity, crop_health, crop_yield, food_security, food_production, malnutrition	crop, water_access, irrigation, water_stress, famine, water_security			water
+317	flood	TOPIC	Floods	Flood	disasters	data4sdgs	disasters			crop_health,food_supply,infrastructure,water_extent	water_quality, health			water
+318	sewage	TOPIC	Sewage		wastewater	data4sdgs	wastewater			water_quality,health,sanitation				water, urban
+320	water_extent	TOPIC	Water Extent	Water Extents	surface_water	data4sdgs				land_cover			surface_water	
+322	water_demand	TOPIC	Water Demand	Water Demands	water_access	data4sdgs							water_access	
+324	precipitation	TOPIC	Precipitation	rain|rainfall	climate	data4sdgs	water			flood,drought,food_and_agriculture	water,erosion,landslide	storm	climate	
+327	water_quality	TOPIC	Water Quality	Water Qualities	water	data4sdgs				health,biodiversity	aquaculture		water	
+329	water_stress	TOPIC	Water Stress	Water Scarcity	water_supply	data4sdgs				resource _scarcity	water_security,conflict		water_supply	
+330	drinking_water	TOPIC	Drinking Water		water_access	data4sdgs				health			water_access	
+331	wastewater	TOPIC	Wastewater	Wastewaters	water	data4sdgs	water			health	water_quality			
+332	water_access	TOPIC	Water Access		water	data4sdgs					food_and_agriculture,energy_production,energy_infrastructure		water	
+334	dam	TOPIC	Dams	Dam	energy_infrastructure	data4sdgs	energy_infrastructure		river	water_quality,land_vcover	biodiversity	hydroelectricity		
+336	river	TOPIC	Rivers	River	surface_water	data4sdgs	surface_water			flood	fisheries			water
+337	lake	TOPIC	Lakes	Lake	surface_water	data4sdgs	surface_water			fisheries				water
+339	ocean	TOPIC	Oceans	Ocean	general	data4sdgs	general							
+340	watershed	TOPIC	Watersheds	Drainage Basins|Watershed	water	data4sdgs							water	
+342	clean_water	TOPIC	Clean Water		water_quality	data4sdgs	water_quality							
+343	water_conflict	TOPIC	Water Conflicts	Water Conflict	conflict	data4sdgs	conflict			water_access,migration	water_security			
+344	harmful_algal_blooms	TOPIC	Harmful Algal Blooms	HABs	water_quality	data4sdgs	water_quality		ocean,lake,river		dead_zone, water_quality			water
+345	ice	TOPIC	Ice		snow_and_ice	data4sdgs	snow_and_ice			flood,river				
+346	total_suspended_solids	TOPIC	Total Suspended Solids		water_quality	data4sdgs	water_quality			biodiversity,fisheries,water_quality	sedimentation			water
+347	biological_oxygen_demand	TOPIC	Biological Oxygen Demand		wastewater	data4sdgs	wastewater					wastewater, water_quality		
+348	chemical_oxygen_demand	TOPIC	Chemical Oxygen Demand		wastewater	data4sdgs	wastewater				wastewater, water_quality			
+349	nitrogen	TOPIC	Nitrogen		nutrients	data4sdgs	nutrients			water_quality	eutrophication,harmful_algal_blooms,dead_zone			
+350	phosphorus	TOPIC	Phosphorus		nutrients	data4sdgs	nutrients			water_quality	harmful_algal_blooms			
+351	snow	TOPIC	Snow		snow_and_ice	data4sdgs	snow_and_ice, land_cover			flood,river				
+353	eutrophication	TOPIC	Eutrophication		water_quality	data4sdgs	water_quality		ocean,lake,river	biodiversity,fisheries,water_quality				
+355	food_and_agriculture	TOPIC	Food and Agriculture		general	data4sdgs	general			nutrition,livelihood				
+356	hunger	TOPIC	Hunger		malnutrition	data4sdgs	malnutrition							food_and_agriculture
+357	nutrition	TOPIC	Nutrition		health	data4sdgs	health							food_and_agriculture
+358	famine	TOPIC	Famine	Famines	malnutrition	data4sdgs	malnutrition			mortality, displaced_people	emergency_response			
+359	livestock	TOPIC	Livestock		food_and_agriculture	data4sdgs	food_and_agriculture, animal 			nutrition,emissions				primary_sector, commodity
+360	crop	TOPIC	Crops	Crop	food_and_agriculture	data4sdgs	food_and_agriculture		cropland	food_production				
+361	crop_health	TOPIC	Crop Health		crop	data4sdgs				crop_yield	economic		crop	
+362	crop_yield	TOPIC	Crop Yield		crop	data4sdgs					economic,gdp,trade		crop	
+363	food_security	TOPIC	Food Security		food_and_agriculture	data4sdgs				famine, malnutrition,nutrition	health,conflict		food_and_agriculture	
+364	food_supply	TOPIC	Food Supply		food_and_agriculture	data4sdgs					food_security, famine		food_and_agriculture	
+365	food_waste	TOPIC	Food Waste		food_and_agriculture	data4sdgs					ghg		food_and_agriculture	
+366	malnutrition	TOPIC	Malnutrition		health	data4sdgs				health	mortality		health	food_and_agriculture
+368	food_price	TOPIC	Food Price	Food Prices	food_and_agriculture	data4sdgs				food_security,nutrition			food_and_agriculture	
+369	agriculture	TOPIC	Agriculture		food_and_agriculture	data4sdgs	food_and_agriculture			livelihood,nutrition	deforestation,emission,erosion			
+370	irrigation	TOPIC	Irrigation		food_and_agriculture	data4sdgs	food_and_agriculture			water_access,water_quality	energy_demand,energy_production			
+371	beef	TOPIC	Beef		livestock	data4sdgs	livestock		pasture	nutrition,ch4				mammal
+372	lamb	TOPIC	Lamb		livestock	data4sdgs	livestock		pasture	nutrition				livestock, mammal
+373	aquaculture	TOPIC	Aquaculture		food_and_agriculture	data4sdgs	food_and_agriculture			livelihood,nutrition	deforestation			food_and_agriculture
+374	maize	TOPIC	Maize		crop	data4sdgs	crop							
+376	fishing	TOPIC	Fishing		commercial_activity	data4sdgs	commercial_activity			nutrition,fisheries				fish
+377	fishery	TOPIC	Fishery		fishing	data4sdgs	fishing				livelihood			fish
+379	seafood	TOPIC	Seafood		food_and_agriculture	data4sdgs	food_and_agriculture		ocean, river, lake, wetland, coast		nutrition			
+381	climate	TOPIC	Climate		general	data4sdgs	general			precipitation, temperature,weather				
+382	ghg	TOPIC	GHG	greenhouse_gas	gas	data4sdgs	gas			climate_change				
+383	sea_ice	TOPIC	Sea Ice		ocean	data4sdgs	snow_and_ice			shipping,habitat			ocean	
+384	sea_level	TOPIC	Sea Level		ocean	data4sdgs			coast	coastal_erosion, coastal_flooding	aquaculture,salinity,water_quality		ocean	
+385	snow_cover	TOPIC	Snow Cover		snow	data4sdgs	snow			albedo				
+386	albedo 	TOPIC	Albedo 	Reflectance	climate	data4sdgs				temperature			climate	
+387	glacier	TOPIC	Glaciers		snow_and_ice	data4sdgs	snow_and_ice, land_cover			flood,river				
+388	climate_change	TOPIC	Climate Change		climate	data4sdgs				climate	extreme_event,thermal_expansion,sea_level,snow_cover,snow_and_ice,precipitation,temperature,acidification,sea_surface_temperature,biome,permafrost		climate	sea_level,snow_cover,albedo,glacier,extreme_event
+389	sea_surface_temperature	TOPIC	Sea Surface Temperature	Sea Surface Temperatures	ocean	data4sdgs	temperature				bleaching, thermal_expansion	species,habitat	ocean	climate
+390	acidification	TOPIC	Acidification		ocean	data4sdgs				coral_reef,habitat	fisheries		ocean	sea, ocean, climate
+391	storm	TOPIC	Storm	Storms	weather	data4sdgs	weather				extreme_event,infrastructure,mortality			
+392	storm_intensity	TOPIC	Storm Intensity 		storm	data4sdgs							storm	
+393	biome	TOPIC	Biomes	Biome	biodiversity	data4sdgs	biodiversity							climate
+394	CO2	TOPIC	CO2	Carbon Dioxide	ghg	data4sdgs	ghg				acidification			
+395	ch4	TOPIC	CH4	Methane	ghg	data4sdgs	ghg			air_quality				
+396	boreal	TOPIC	Boreal		climate_zone	data4sdgs	habitat, climate_zone				biodiversity			climate
+397	temperate	TOPIC	Temperate		climate_zone	data4sdgs	habitat, climate_zone				biodiversity			climate
+398	tropical	TOPIC	Tropical		climate_zone	data4sdgs	habitat, climate_zone				biodiversity			climate
+399	wind	TOPIC	Wind	Winds	climate	data4sdgs	climate			erosion	extreme_event			
+400	n2o	TOPIC	N2O	Nitrogeous Oxide	ghg	data4sdgs	ghg			air_quality				climate
+401	thermal_expansion	TOPIC	Thermal Expansion		ocean	data4sdgs			ocean, sea		sea_level_rise		ocean	
+402	seasonality	TOPIC	Seasonality	seasons	climate	data4sdgs	climate			monsoon, hurricane, typhoon,agriculture,precipitation,temperature	sea_ice, water_avaliability			
+403	energy	TOPIC	Energy		general	data4sdgs	general							
+404	energy_production	TOPIC	Energy Production		energy	data4sdgs				emissions, commodity			energy	
+406	energy_efficiency	TOPIC	Energy Efficiency		energy	data4sdgs				ghg,emissions,income			energy	
+407	emissions	TOPIC	Emissions		climate	data4sdgs				air_quality	ghg		climate	
+408	renewable_energy 	TOPIC	Renewable	Renewables	energy_production	data4sdgs	energy_production			emissions				
+409	nonrenewable_energy	TOPIC	Nonrenewable Energy	Nonrenewables	energy_production	data4sdgs	energy_production			emissions,pollution	mining,drilling			
+410	power_plant	TOPIC	Power Plants	Power Plant	energy_infrastructure	data4sdgs	energy_infrastructure				energy_access,water_access			energy_production
+411	solar_energy	TOPIC	Solar Energy		renewable_energy	data4sdgs	renewable_energy							energy
+412	wind_energy	TOPIC	Wind Energy		renewable_energy	data4sdgs								
+413	geothermal	TOPIC	Geothermal		renewable_energy	data4sdgs	renewable_energy							
+414	coal	TOPIC	Coal		fuel	data4sdgs	fuel, nonrenewable_energy			air_pollution,emissions,so2,no2,co2	mining,land_use			
+416	natural_gas	TOPIC	Natural Gas		fuel	data4sdgs	fuel, nonrenewable_energy			water_quality,co2,ghg,ch4				
+417	petroleum	TOPIC	Petroleum	Oil	fuel	data4sdgs	fuel, nonrenewable_energy				climate_change			energy
+418	nuclear	TOPIC	Nuclear		energy_production	data4sdgs	energy_production			energy_hazard,mining,land_use	waste			
+419	radiation	TOPIC	Radiation		energy_hazard	data4sdgs	energy_hazard				health,water_quality,air_quality			nuclear
+420	energy_hazard	TOPIC	Energy Hazard	Energy Hazards	energy	data4sdgs				health			energy	
+421	oil_refinery	TOPIC	Oil Refinery	Oil Refineries	energy_infrastructure	data4sdgs	energy_infrastructure							
+422	thorium	TOPIC	Thorium		mineral	data4sdgs	mineral					nuclear		commodity
+423	hydropower	TOPIC	Hydropower		renewable_energy	data4sdgs	renewable_energy			sedimentation,total_suspended_solids				
+424	fuel	TOPIC	Fuel	Fuel	energy	data4sdgs	energy							commodity
+425	energy_access	TOPIC	Energy Access		energy	data4sdgs				livelihood,health,income			energy	development
+426	power_lines	TOPIC	Power Lines		energy_infrastructure	data4sdgs	energy_infrastructure			energy_access	land_use			
+427	pipelines	TOPIC	Pipelines		energy_infrastructure	data4sdgs	energy_infrastructure			energy_access	pollution,spill			energy
+428	energy_infrastructure	TOPIC	Energy Infrastructure		energy	data4sdgs	infrastructure			energy_efficiency,gdp,livelihood,land_use			energy	
+429	urbanization	TOPIC	Urbanization		urban	data4sdgs	urban			land_cover	deforestation			
+430	roads	TOPIC	Roads		infrastructure	data4sdgs	infrastructure, public_service			accessibility	deforestation			
+432	urban	TOPIC	Cities	city|urban	settlements	data4sdgs	settlements			land_use				
+433	pollution	TOPIC	Pollution		society	data4sdgs				air_quality,water_quality,health			society	
+435	public_transportation	TOPIC	Public Transportation		transportation	data4sdgs	transportation, public_service			emissions, accessibility				
+436	impervious_surface	TOPIC	Impervious Surface	Impervious Surfaces	land_cover	data4sdgs	land_cover			erosion, flood, heat_island,runoff,groundwater				
+437	bus	TOPIC	Buses	Bus	public_transportation	data4sdgs	public_transportation		urban, roads		emissions	accessibility		
+438	train	TOPIC	Trains	Rail|Train	public_transportation	data4sdgs	public_transportation				emissions	accessibility		
+439	bike	TOPIC	Bikes	Bike	transportation	data4sdgs	transportation		roads	emissions,accessibility 	health			urban
+440	car	TOPIC	Cars	Car	transportation	data4sdgs	transportation		roads	emissions,accessibility 				urban
+441	accessibility	TOPIC	Accessibility	Accessibilities	urban	data4sdgs				livelihood	vulnerability		urban	
+443	greenspace	TOPIC	Greenspace	Greenspace|Parks	urban	data4sdgs				health,air_quality			urban	
+444	air_quality	TOPIC	Air Quality	Air Qualities	health	data4sdgs				health			health	urban
+445	o3	TOPIC	O3	Ozone	gas	data4sdgs	gas				air_quality, radiation			pollution, urban
+446	cfc	TOPIC	CFC	Chlorofluorocarbon	ghg	data4sdgs	ghg				o3			
+447	co	TOPIC	CO	Carbon Monoxide	ghg	data4sdgs	ghg			air_quality	health			
+448	so2	TOPIC	SO2	Sulfur Dioxide	ghg	data4sdgs	ghg			air_quality				
+449	waste	TOPIC	Waste		urban	data4sdgs	pollution			water_quality	biodiversity		urban	
+453	heat_island	TOPIC	Heat Islands	Heat Islands	temperature	data4sdgs				health			temperature	
+454	disasters	TOPIC	Disasters	Disaster	general	data4sdgs	general			mortality,infrastructure	supply_chain,displaced_people,economic			
+455	natural_disaster	TOPIC	Natural Disasters	Natural Disaster	disasters	data4sdgs	disasters			infrastructure,mortality	displaced_people			extreme_event
+456	earthquake	TOPIC	Earthquakes	Seismic|Earthquake	natural_disaster	data4sdgs	natural_disaster				tsunami			
+457	volcano	TOPIC	Volcanoes	Volcano	natural_disaster	data4sdgs	natural_disaster	land			land_cover			
+458	eruption	TOPIC	Eruptions	Eruption	natural_disaster	data4sdgs	natural_disaster		volcano					
+459	cold_wave	TOPIC	Cold Waves	Cold Wave	extreme_event	data4sdgs	extreme_event			health,crop_health				
+460	heat_wave	TOPIC	Heat Waves	Heat Wave	extreme_event	data4sdgs	extreme_event			health,crop_health				
+461	landslide	TOPIC	Landslides	Landslide	natural_disaster	data4sdgs	natural_disaster							disasters
+462	hurricane	TOPIC	Hurricanes	Typhoons|Cyclones|Hurricane	natural_disaster	data4sdgs	natural_disaster		coast	storm_surge, wind, precipitation,coastal_flooding				
+464	tsunami	TOPIC	Tsunamis	Tsunami	natural_disaster	data4sdgs	natural_disaster		coast	flood				
+465	slope	TOPIC	Slope		land	data4sdgs				land_use	landslide, erosion			
+466	species	TOPIC	Species		biodiversity	data4sdgs	biodiversity							
+467	illegal_activity	TOPIC	Illegal Activity	Illegal Activities	human_activity	data4sdgs	human_activity				fisheries,species,land_use,forest,commodity			
+468	ecosystem	TOPIC	Ecosystems	Ecosystem	biodiversity	data4sdgs	biodiversity							
+469	poaching	TOPIC	Poaching	Poaching|Poachers	commercial_activity	data4sdgs	commercial_activity,illegal_activity				extinction, endangered, biodiversity			
+470	hunting	TOPIC	Hunting		human_activity	data4sdgs	human_activity			species				animal
+471	habitat_loss	TOPIC	Habitat Loss	Habitat Losses	habitat	data4sdgs				species				
+472	ecoregion	TOPIC	Ecoregions	Ecoregion	ecosystem	data4sdgs							ecosystem	species
+473	habitat	TOPIC	Habitats	Habitat	ecosystem	data4sdgs	biodiversity							biodiversity
+474	endangered	TOPIC	Endangered		species	data4sdgs					conservation		species	
+475	extinction	TOPIC	Extinction	Extinctions	species	data4sdgs				biodiversity	conservation		species	
+477	mammal	TOPIC	Mammals	Mammal	animal	data4sdgs	animal							marine_life
+478	coral_reef	TOPIC	Coral Reefs	Corals|Coral Reef	reef	data4sdgs	reef		ocean, sea	habitat,fisheries,biodiversity				
+479	amphibian	TOPIC	Amphibians	Amphibian	animal	data4sdgs	animal							
+481	reef	TOPIC	Reefs	Reef	marine_life	data4sdgs			ocean	biodiversity,fisheries	tourism		ocean	
+482	bleaching	TOPIC	Bleaching	Bleachings	coral_reef	data4sdgs				fisheries,biodiversity			coral_reef	
+484	marine_life	TOPIC	Marine Life		ocean	data4sdgs			ocean	fishing				biodiversity
+485	conservation	TOPIC	Conservation		human_activity	data4sdgs	human_activity			intact_forest,protected_areas				
+486	restoration	TOPIC	Restoration		human_activity	data4sdgs	human_activity			habitat				
+487	society	TOPIC	Society	People	general	data4sdgs	general							
+489	population	TOPIC	Population	Populations	society	data4sdgs					resilience,urban,vulnerability		society	
+491	literacy	TOPIC	Literacy		education	data4sdgs	education							education
+493	school	TOPIC	School		infrastructure	data4sdgs	infrastructure			literacy				education
+494	education	TOPIC	Education		society	data4sdgs				economic,livelihood			society	
+495	political_stability	TOPIC	Political Stability		governance	data4sdgs				conflict,security	finance		governance	
+496	rights	TOPIC	Rights		justice	data4sdgs				conflict,protest			justice	
+497	human_rights	TOPIC	Human Rights		rights	data4sdgs	rights							
+498	Indigenous_rights	TOPIC	Indigenous Rights		rights	data4sdgs	rights			indigenous_lands,community_lands			land_rights	
+499	land_rights	TOPIC	Land Rights		rights	data4sdgs	rights			indigenous_lands,community_lands				
+500	justice	TOPIC	Justice	Justices	governance	data4sdgs				poverty, wealth, protest, conflict			governance	rights
+501	protest	TOPIC	Protests	Protest	society	data4sdgs					conflict,rights		society	governance
+502	security	TOPIC	Security		society	data4sdgs				conflict,development,tourism	rights		society	
+503	corruption	TOPIC	Corruption	Corruption	governance	data4sdgs				gdp,commerce,protest,conflict			governance	political_stability
+504	governance	TOPIC	Governance	governments	society	data4sdgs				conflict,economic,development,adaptation,resilience,justice,market_incentives,international_relations	protected_areas,finance		society	
+507	displaced_people	TOPIC	Displaced People		migration	data4sdgs				population	economic		migration	land
+509	discrimination	TOPIC	Discrimination		justice	data4sdgs				gender,minority,indigenous_lands			justice	
+511	resilience	TOPIC	Resilience		society	data4sdgs				adaptation			society	
+512	vulnerability	TOPIC	Vulnerability		society	data4sdgs	society			development,resilience,adaptation				
+514	refugee	TOPIC	Refugee	Refugees|Migrants	displaced_people	data4sdgs	displaced_people			conflict,vulnerability,population				
+515	women	TOPIC	Women	female|girls|woman	gender	data4sdgs	gender			rights				
+516	gender	TOPIC	Gender	Genders	society	data4sdgs				rights	vulnerability,economic,inequality		society	
+517	poverty	TOPIC	Poverty		economic	data4sdgs				malnutrition,nutrition,health,security	energy_access, vulnerability, mortality		economic	
+518	mortality	TOPIC	Mortality	Mortalities	health	data4sdgs				population			health	
+519	wealth	TOPIC	Wealth		economic	data4sdgs				inequality,health,education	food_waste		economic	
+520	inequality	TOPIC	Inequality	Inequalities	society	data4sdgs				poverty, wealth, protest, conflict	vulnerability		society	economic
+522	health	TOPIC	Health	well-being	society	data4sdgs					vulnerability, resilience		society	
+523	gdp	TOPIC	GDP	Gross Domestic Product	economic	data4sdgs				livelihood	vulnerability		economic	
+524	disease	TOPIC	Disease	Diseases|illnesses|sick	health	data4sdgs				mortality			health	
+527	protected_areas	TOPIC	Protected Area	National Parks|Reserves|Protected Areas	land	data4sdgs	land			biodiversity,species,tourism				biodiversity, conservation
+528	developed	TOPIC	Developed		development	data4sdgs	development						development	
+529	developing	TOPIC	Developing		development	data4sdgs	development						development	
+530	low_income	TOPIC	Low Income		income	data4sdgs				vulnerability			income	
+531	middle_income	TOPIC	Middle Income		income	data4sdgs				vulnerability			income	
+532	high_income	TOPIC	High Income		income	data4sdgs				vulnerability			income	
+533	commerce	TOPIC	Commerce		general	data4sdgs	general			economic				
+534	supply_chain	TOPIC	Supply Chains	Supply Chain	commerce	data4sdgs				livelihood,trade			commerce	
+535	fertilizer	TOPIC	Fertilizer	Fertilizers	agriculture	data4sdgs				nitrogen,phosphorus,nutrients	harmful_algal_blooms		agriculture	
+536	exposure	TOPIC	Exposure	Exposures	resilience	data4sdgs				vulnerability, damage, resilience				
+537	adaptation	TOPIC	Adaptation	Adaptations	society	data4sdgs				vulnerability, damage, resilience			society	
+538	mitigation	TOPIC	Mitigation	Mitigations	society	data4sdgs				ghg	vulnerability, damage, resilience		society	
+539	storm_surge	TOPIC	Storm Surge	Storm Surges	storm	data4sdgs			coast				storm	
+540	sustainable_development	TOPIC	Sustainable Development		development	data4sdgs	development			economic, developing, climate_change	vulnerability			
+543	emergency_services	TOPIC	Emergency Services		public_service	data4sdgs	public_service			vulnerability, response, damage, resilience				
+544	adaptive_capacity	TOPIC	Adaptive Capacity	capacities	adaptation	data4sdgs				vulnerability, response, damage, resilience			adaptation	
+545	economic	TOPIC	Economic	economics	society	data4sdgs				vulnerability	F		society	
+	concessions	TOPIC	Concessions		commercial_activity	data4sdgs				commercial_activity, deforestation, mining, pollution, exploitation				
+546	response	TOPIC	Response	Responses	human_activity	data4sdgs	human_activity			health				
+548	development	TOPIC	Development		society	data4sdgs				economic	energy_access,water_access,heat_island		society	
+551	early_warning	TOPIC	Early Warning	Early Warnings|Predictions|Forecasts	response	data4sdgs	response			vulnerability, response,health,mortality				
+554	stormwater	TOPIC	Stormwater	stormwaters	water	data4sdgs	water				flood,water_quality,erosion			precipitation, storm
+557	climate_hazard	TOPIC	Climate Hazard	Climate Hazards	climate	data4sdgs							climate	
+564	emergency_response	TOPIC	Emergency Response	Emergency Responses	emergency_service	data4sdgs				vulnerability, health, damage, resilience				disaster,extreme_event
+565	coastal_erosion	TOPIC	Coastal Erosion		coast	data4sdgs	erosion			vulnerability, infrastructure			coast	
+566	water_security	TOPIC	Water Security		water_access	data4sdgs				conflict,famine			water_access	
+568	wildfire	TOPIC	Wildfires	Wildfire	fire	data4sdgs	fire			air_quality	forest			
+570	water_supply	TOPIC	Water Supply	Water Supplies	water_access	data4sdgs					water_security,irrigation		water_access	
+571	coastal_flooding	TOPIC	Coastal Flooding	Coastal Floodings	coast	data4sdgs	flood			vulnerability, infrastructure,mortality	coastal_erosion		coast	
+572	runoff	TOPIC	Runoff		precipitation	data4sdgs							precipitation	precipitation
+	community_lands	TOPIC	Community Lands		administrative_boundaries	data4sdgs	administrative_boundaries							
+	Indigenous_lands	TOPIC	Indigenous Lands		administrative_boundaries	data4sdgs	administrative_boundaries							
+	national	TOPIC	National		administrative_boundaries	data4sdgs	administrative_boundaries							
+	subnational	TOPIC	Subnational		administrative_boundaries	data4sdgs	administrative_boundaries							
+	bird	TOPIC	Birds	Bird	animal	data4sdgs	animal							
+	reptile	TOPIC	Reptiles	Reptile	animal	data4sdgs	animal							
+	air_pressure	TOPIC	Air Pressure	Air Pressures	climate	data4sdgs				storm,extreme_event			climate	
+	climate_zone	TOPIC	Climate Zone	Climate Zones	climate	data4sdgs	climate			biome				
+	evapotranspiration	TOPIC	Evapotranspiration		climate	data4sdgs					drought		climate	
+	gas	TOPIC	Gases	Gas	climate	data4sdgs	climate							
+	commercial_activity	TOPIC	Commercial Activity	Commercial Activities	commerce	data4sdgs	commerce			livelihood,food_and_agriculture	shipping			
+	shipping	TOPIC	Shipping		commerce	data4sdgs				biodiversity,water_quality,transportation,supply_chain	livelihood			
+	mining	TOPIC	Mining		commercial_activity	data4sdgs	commercial_activity			minerals,trade,energy_production,non_renewable,water_quality,soil,land_use,erosion,infrastructure,deforestation,land_rights				
+	drilling	TOPIC	Drilling		commercial_activity	data4sdgs	commercial_activity			minerals,trade,energy_production,non_renewable,water_quality,soil,land_use,infrastructure,land_rights				
+	market_incentives	TOPIC	Market Incentives		commerce	data4sdgs	commerce			gdp,trade,finance				
+	international_relations	TOPIC	International Relations		society	data4sdgs	society				market_incentives,trade			
+	treaty	TOPIC	Treaties	Treaty	international_relations	data4sdgs	international_relations			trade				
+	finance	TOPIC	Finance	Finances	economic	data4sdgs				development,infrastructure,trade			economic	
+	trade	TOPIC	Trade	Trades	commercial_activity	data4sdgs	commercial_activity			livelihood,supply_chain,commodity	food_price,gdp		commerce	
+	mineral	TOPIC	Minerals	Mineral	commodity	data4sdgs	commodity			land_use				
+	corn	TOPIC	Corn		crop	data4sdgs	crop							
+	cropland	TOPIC	Croplands	Cropland	crop	data4sdgs					land_cover			
+	rice	TOPIC	Rice		crop	data4sdgs	crop							
+	soy	TOPIC	Soy		crop	data4sdgs	crop							
+	wheat	TOPIC	Wheat		crop	data4sdgs	crop							
+	internally_displaced	TOPIC	Internally Displaced		displaced_people	data4sdgs	displaced_people			conflict				
+	income	TOPIC	Income	Incomes	economic	data4sdgs				food_security,health,education,poverty	vulnerability,energy_access		economic	
+	livelihood	TOPIC	Livelihood	Livelihoods	economic	data4sdgs				income,food_and_agriculture,commerce	security		economic	
+	biodiversity	TOPIC	Biodiversity		general	data4sdgs					tourism,food_security		general	
+	tourism	TOPIC	Tourism	Tourists	commercial_activity	data4sdgs	commercial_activity			livelihood,infrastructure				
+	lights	TOPIC	Lights		energy_access	data4sdgs	energy_access				species,education			
+	energy_demand	TOPIC	Energy Demand		energy	data4sdgs				ghg,emissions,energy_production,infrastructure			energy	
+	spill	TOPIC	Spill	Spills|leaks	energy_hazard	data4sdgs	energy_hazard				health,biodiversity,water_quality,ocean			
+	food_production	TOPIC	Food Production		food_and_agriculture	data4sdgs					livelihood,economic		food_and_agriculture	
+	pasture	TOPIC	Pasture	Grazing|Pasture	food_and_agriculture	data4sdgs	food_and_agriculture			land_use,land_cover				
+	groundwater	TOPIC	Groundwater		water	data4sdgs	water			water_access				
+	snow_and _ice	TOPIC	Snow and Ice		water	data4sdgs	water			sea_level, albedo	flood,river,water_access			
+	surface_water	TOPIC	Surface Water		water	data4sdgs	water			water_access				
+	fossil_fuel	TOPIC	Fossil Fuel	Fossil Fuels	fuel	data4sdgs	fuel			emissions,co2				
+	administrative_boundaries	TOPIC	Administrative Boundaries		general	data4sdgs	general							
+	settlements	TOPIC	Settlements 	Settlement|Cities|Infrastructure	general	data4sdgs	general			land_cover,land_use,population	heat_island			
+	sanitation	TOPIC	Sanitation		health	data4sdgs							health	
+	hospital	TOPIC	Hospital	Hospitals	infrastructure	data4sdgs	infrastructure							
+	transportation	TOPIC	Transportation	Transport	infrastructure	data4sdgs	infrastructure			accessibility,livelihood	emissions,supply_chain			urban
+	minority	TOPIC	Minority	Minorities	justice	data4sdgs								
+	elevation	TOPIC	Elevation		land	data4sdgs							land	
+	land_cover	TOPIC	Land Cover		land	data4sdgs				albedo,ghg,emissions			land	
+	land_use	TOPIC	Land Use		land	data4sdgs				land_cover,ghg,emissions			land	
+	permafrost	TOPIC	Permafrost		land	data4sdgs	land			ch4	infrastructure			
+	roadless_area	TOPIC	Roadless Areas	Roadless Area	land	data4sdgs	land			biodiversity,species,intact_forest				roads
+	soil	TOPIC	Soils	Soil	land	data4sdgs	land			food_and_agriculture				
+	uranium	TOPIC	Uranium		mineral	data4sdgs	mineral					nuclear		commodity
+	tornado	TOPIC	Tornados	Tornado	natural_disaster	data4sdgs	natural_disaster							
+	salinity	TOPIC	Salinity	Salinities	ocean	data4sdgs				habitat			ocean	
+	monsoon	TOPIC	Monsoons	Monsoon	precipitation	data4sdgs	precipitation			wind,coastal_flooding,flood	food_and_agriculture,drought			
+	airplane	TOPIC	Airplane	Planes|Airplanes	public_transportation	data4sdgs	public_transportation				emissions	accessibility		
+	airport	TOPIC	Airport	Airports	public_transportation	data4sdgs	public_transportation				emissions	accessibility		
+	train_station	TOPIC	Train Station	Train Stations	public_transportation	data4sdgs	public_transportation					accessibility		train
+	natural_resource	TOPIC	Natural Resource	Natural Resources	resource	data4sdgs	resource			trade,commodity				
+	resource_scarcity	TOPIC	Resource Scarcity	Resource Scarcities	natural_resource	data4sdgs							natural_resource	
+	sea_level_rise	TOPIC	Sea Level Rise	Sea Level Rises|Rising	sea_level	data4sdgs	process		coast	flood,coastal_erosion,coastal_flooding	infrastructure,land_cover,water		sea_level	
+	affiliation	TOPIC	Affiliations		international_relations	data4sdgs	society			market_incentives,sustainable_development				
+	human_activity	TOPIC	Human Activity	Human Activities	society	data4sdgs				land_use,livelihood			society	
+	migration	TOPIC	Migration	Migrations	society	data4sdgs				conflict			society	refugee
+	public_service	TOPIC	Public Services	Public Service	society	data4sdgs				resilience,vulnerability			society	
+	cyanobacteria	TOPIC	Cyanobacteria	Cyanobacterias	species	data4sdgs	species				water_quality,health			
+	threatened	TOPIC	Threatened		species	data4sdgs					conservation		species	
+	urban_expansion	TOPIC	Urban Expansion		urban	data4sdgs				land_cover	accessibility, heat_island, park, greenspace		urban	
+	dead_zone	TOPIC	Dead Zone	Anoxic|Dead Zones	water_quality	data4sdgs			ocean,lake,river	biodiversity,fisheries,water_quality			water_quality	
+	nutrients	TOPIC	Nutrients		water_quality	data4sdgs	water_quality			water_quality	harmful_algal_blooms			plant
+	weather	TOPIC	Weather		climate	data4sdgs	climate							
+	biomass	TOPIC	Biomass		forest	data4sdgs				co2,ghg,carbon	climate_change			
+	smoke	TOPIC	Smoke		fire	data4sdgs	fire			air_quality				
+	carbon	TOPIC	Carbon		climate	data4sdgs				climate				
+	investments	TOPIC	Investments		commerce	data4sdgs				commerce,development,international_relations				
+	sustainable_development_goals	SDG	Sustainable Development Goals	SDGs	general	data4sdgs	general							
+	SDG_1_No_Poverty	SDG	SDG 1 No Poverty		sustainable_development_goals		sustainable_development_goals							
+	SDG_2_Zero_Hunger	SDG	SDG 2 Zero Hunger		sustainable_development_goals		sustainable_development_goals							
+	SDG_3_Good_Health_and_Well-being	SDG	SDG 3 Good Health and Well-being		sustainable_development_goals		sustainable_development_goals							
+	SDG_4_Quality_Education	SDG	SDG 4 Quality Education		sustainable_development_goals		sustainable_development_goals							
+	SDG_5_Gender_Equality	SDG	SDG 5 Gender Equality		sustainable_development_goals		sustainable_development_goals							
+	SDG_6_Clean_Water_and_Sanitation	SDG	SDG 6 Clean Water and Sanitation		sustainable_development_goals		sustainable_development_goals							
+	SDG_7_Affordable_and_Clean_Energy	SDG	SDG 7 Affordable and Clean Energy		sustainable_development_goals		sustainable_development_goals							
+	SDG_8_Decent_Work_and_Economic_Growth	SDG	SDG 8 Decent Work and Economic Growth		sustainable_development_goals		sustainable_development_goals							
+	SDG_9_Industry_Innovation_and_Infrastructure	SDG	SDG 9 Industry, Innovation and Infrastructure		sustainable_development_goals		sustainable_development_goals							
+	SDG_10_Reduced_Inequalities	SDG	SDG 10 Reduced Inequalities		sustainable_development_goals		sustainable_development_goals							
+	SDG_11_Sustainable_Cities_and_Communities	SDG	SDG 11 Sustainable Cities and Communities		sustainable_development_goals		sustainable_development_goals							
+	SDG_12_Responsible_Consumption_and_Production	SDG	SDG 12 Responsible Consumption and Production		sustainable_development_goals		sustainable_development_goals							
+	SDG_13_Climate_Action	SDG	SDG 13 Climate Action		sustainable_development_goals		sustainable_development_goals							
+	SDG_14_Life_below_Water	SDG	SDG 14 Life below Water		sustainable_development_goals		sustainable_development_goals							
+	SDG_15_Life_on_Land	SDG	SDG 15 Life on Land		sustainable_development_goals		sustainable_development_goals							
+	SDG_16_Peace_Justice_and_Strong_Institutions	SDG	SDG 16 Peace Justice and Strong Institutions		sustainable_development_goals		sustainable_development_goals							
+	SDG_17_Partnership_for_Goals	SDG	SDG 17 Partnership for Goals		sustainable_development_goals		sustainable_development_goals							
